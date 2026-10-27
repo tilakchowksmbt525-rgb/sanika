@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henna by Devyani | Mehndi Artist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo">🌿 Henna by Devyani</a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Book Now</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">ART THAT TELLS YOUR STORY</p>
+            <h1>Beautiful Hands,<br>
+                <span>Beautiful Henna</span>
+            </h1>
+            <p>
+                Celebrate your special moments with elegant,
+                traditional and modern mehndi designs.
+            </p>
+            <a href="#contact" class="btn">Book Your Design</a>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="about-text">
+            <p class="tagline">WELCOME TO MY WORLD</p>
+            <h2>Every Design Has a Story</h2>
+            <p>
+                Welcome to Henna by Devyani, where creativity meets
+                tradition. From beautiful bridal patterns to simple
+                and stylish Arabic designs, every creation is made
+                with love and attention to detail.
+            </p>
+            <p>
+                Make your weddings, festivals and celebrations
+                unforgettable with beautiful mehndi art.
+            </p>
+        </div>
+        <div class="about-art">🌿<br>✿<br>❀</div>
+    </section>
+
+    <section class="section services" id="services">
+        <p class="tagline">WHAT I OFFER</p>
+        <h2>My Mehndi Services</h2>
+
+        <div class="service-grid">
+            <div class="service-card">
+                <div class="service-icon">💍</div>
+                <h3>Bridal Mehndi</h3>
+                <p>Intricate designs for your most special day.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🌸</div>
+                <h3>Arabic Mehndi</h3>
+                <p>Stylish floral patterns with beautiful details.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">✨</div>
+                <h3>Minimal Mehndi</h3>
+                <p>Simple, elegant and modern designs.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎉</div>
+                <h3>Festival Mehndi</h3>
+                <p>Perfect designs for Eid, Diwali and celebrations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+        <p class="tagline">MY CREATIVE COLLECTION</p>
+        <h2>Mehndi Design Gallery</h2>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1610173827043-9db50e0d8ef9?auto=format&fit=crop&w=700&q=80"
+                     alt="Mehndi inspiration">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1605218427306-022ba6c6a07d?auto=format&fit=crop&w=700&q=80"
+                     alt="Traditional henna art">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1597983073493-88cd35cf93c0?auto=format&fit=crop&w=700&q=80"
+                     alt="Wedding henna inspiration">
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <p class="tagline">LET'S MAKE IT SPECIAL</p>
+        <h2>Book Your Appointment</h2>
+        <p>Fill in your details to enquire about your mehndi booking.</p>
+
+        <form id="bookingForm">
+            <input type="text" id="name"
+                   placeholder="Your Full Name" required>
+
+            <input type="tel" id="phone"
+                   placeholder="Your Mobile Number"
+                   pattern="[0-9]{10}" maxlength="10" required>
+
+            <select id="service" required>
+                <option value="">Select Mehndi Service</option>
+                <option>Bridal Mehndi</option>
+                <option>Arabic Mehndi</option>
+                <option>Minimal Mehndi</option>
+                <option>Festival Mehndi</option>
+            </select>
+
+            <input type="date" id="date" required>
+
+            <textarea id="message"
+                      placeholder="Tell me about your design or event"></textarea>
+
+            <button type="submit" class="btn">Send Booking Enquiry</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <h3>🌿 Henna by Devyani</h3>
+        <p>Making every occasion more beautiful, one design at a time.</p>
+        <p>© 2026 Henna by Devyani. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
